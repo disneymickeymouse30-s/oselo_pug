@@ -1,0 +1,282 @@
+[
+ {
+  "test": "起動：ログインボーナスが出る",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "ログインボーナスでコインが増える",
+  "ok": true,
+  "detail": "50"
+ },
+ {
+  "test": "対局：初期配置で駒4つ・置ける場所4つ",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "対局：ヒントが表示される",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "対局：1手戻すでCPUの手も戻る",
+  "ok": true,
+  "detail": "6→4"
+ },
+ {
+  "test": "対局：最後までプレイしてリザルトが出る",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "対局：報酬（EXP・コイン）が表示される",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "ミッション：対局で達成済みになる",
+  "ok": true,
+  "detail": "3件"
+ },
+ {
+  "test": "ミッション：受け取ると「受け取りずみ」",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "チャレンジ：30ステージ以上",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "チャレンジ：目標が表示される",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "チャレンジ：結果に星の評価が出る",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "大会：6大会",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "大会：ヒント・1手戻すが使えない",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "大会：途中でやめると確認が出る",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "大会：途中でやめると敗退扱い",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "図鑑：50種類以上",
+  "ok": true,
+  "detail": "52種"
+ },
+ {
+  "test": "図鑑：未入手はシルエット",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "図鑑：詳細にレベル・親密度・入手日時",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "着せ替え：プレビューしてから決定できる",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "着せ替え：お気に入りに保存できる",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "着せ替え：カーソル（置ける場所の目印）を選べる",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "着せ替え：勝利演出をためせる",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "育成：なでるは1日1回",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "お庭：パグが動く",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "お庭：家具を買って置ける",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "実績：解除されている",
+  "ok": true,
+  "detail": "4 / 100"
+ },
+ {
+  "test": "プロフィール：称号を設定できる",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "戦績：対局数が集計される",
+  "ok": true,
+  "detail": "2"
+ },
+ {
+  "test": "戦績：グラフが表示される",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "設定：BGM の ON/OFF がある",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "設定：バックアップファイルを保存できる",
+  "ok": true,
+  "detail": "pug-reversi-backup-20261121.json"
+ },
+ {
+  "test": "保存：再読み込み後もデータが残る（IndexedDB）",
+  "ok": true,
+  "detail": "Lv.1"
+ },
+ {
+  "test": "オフライン：起動できる",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "オフライン：CPU（HARD）と対局できる",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "通しテスト：エラー0件",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト iPhoneSE（375×667）：横はみ出しなし",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト iPhoneSE（375×667）：盤面が画面内",
+  "ok": true,
+  "detail": "{'x': 19, 'y': 192, 'width': 337, 'height': 337}"
+ },
+ {
+  "test": "レイアウト iPhoneSE：エラー0件",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト iPhone12mini（375×812）：横はみ出しなし",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト iPhone12mini（375×812）：盤面が画面内",
+  "ok": true,
+  "detail": "{'x': 14, 'y': 260, 'width': 347, 'height': 347}"
+ },
+ {
+  "test": "レイアウト iPhone12mini：エラー0件",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト Pixel7（412×915）：横はみ出しなし",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト Pixel7（412×915）：盤面が画面内",
+  "ok": true,
+  "detail": "{'x': 14, 'y': 293, 'width': 384, 'height': 384}"
+ },
+ {
+  "test": "レイアウト Pixel7：エラー0件",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト iPad（768×1024）：横はみ出しなし",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト iPad（768×1024）：盤面が画面内",
+  "ok": true,
+  "detail": "{'x': 124, 'y': 280, 'width': 520, 'height': 520}"
+ },
+ {
+  "test": "レイアウト iPad：エラー0件",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト スマホ横（812×375）：横はみ出しなし",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト スマホ横（812×375）：盤面が画面内",
+  "ok": true,
+  "detail": "{'x': 104, 'y': 68, 'width': 285, 'height': 285}"
+ },
+ {
+  "test": "レイアウト スマホ横：エラー0件",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト PC（1366×768）：横はみ出しなし",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "レイアウト PC（1366×768）：盤面が画面内",
+  "ok": true,
+  "detail": "{'x': 203, 'y': 89, 'width': 640, 'height': 640}"
+ },
+ {
+  "test": "レイアウト PC：エラー0件",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "復旧：壊れたデータ（JSON破損）でも起動する",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "test": "復旧：不正な値（マイナスのコイン等）を安全な値に直して起動",
+  "ok": true,
+  "detail": "0"
+ }
+]
